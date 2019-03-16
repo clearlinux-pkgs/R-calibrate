@@ -4,7 +4,7 @@
 #
 Name     : R-calibrate
 Version  : 1.7.2
-Release  : 7
+Release  : 8
 URL      : https://cran.r-project.org/src/contrib/calibrate_1.7.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/calibrate_1.7.2.tar.gz
 Summary  : Calibration of Scatterplot and Biplot Axes
@@ -23,10 +23,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552724915
+export SOURCE_DATE_EPOCH=1552746112
 
 %install
-export SOURCE_DATE_EPOCH=1552724915
+export SOURCE_DATE_EPOCH=1552746112
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
