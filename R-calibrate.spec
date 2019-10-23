@@ -4,13 +4,14 @@
 #
 Name     : R-calibrate
 Version  : 1.7.5
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/calibrate_1.7.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/calibrate_1.7.5.tar.gz
 Summary  : Calibration of Scatterplot and Biplot Axes
 Group    : Development/Tools
 License  : GPL-2.0
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 variable vectors in scatterplots and biplots. Also provides some functions for multivariate analysis
@@ -24,10 +25,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1570021999
+export SOURCE_DATE_EPOCH=1571806663
 
 %install
-export SOURCE_DATE_EPOCH=1570021999
+export SOURCE_DATE_EPOCH=1571806663
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
