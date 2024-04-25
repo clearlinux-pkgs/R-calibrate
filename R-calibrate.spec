@@ -4,7 +4,7 @@
 #
 Name     : R-calibrate
 Version  : 1.7.7
-Release  : 45
+Release  : 46
 URL      : https://cran.r-project.org/src/contrib/calibrate_1.7.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/calibrate_1.7.7.tar.gz
 Summary  : Calibration of Scatterplot and Biplot Axes
